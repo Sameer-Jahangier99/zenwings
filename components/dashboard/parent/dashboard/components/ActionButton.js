@@ -8,13 +8,16 @@ function ActionButton() {
   return (
     <div className="row py-3">
       <div className="col-6">
-        <button type="button" className="btn w-100 px-3 generate-report-btn weight-500">
-          Generate Report
+        <button
+          type="button"
+          className="btn w-100  generate-report-btn weight-500"
+        >
+          View Full Report
         </button>
       </div>
       <div className="col-6">
-        <button type="button" className="btn w-100 set-appointment-btn px-3">
-          Set Appointment
+        <button type="button" className="btn w-100 set-appointment-btn ">
+          Book an Appointment
         </button>
       </div>
     </div>

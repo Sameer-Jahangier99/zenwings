@@ -9,19 +9,19 @@ function Activity() {
   return (
     <div className="white-background common-border-radius p-3">
       <div>
-        <h5 className="weight-500 m-0">Notifications</h5>
+        <h5 className="weight-500 m-0">Messages</h5>
       </div>
 
       <div className="d-flex gap-3 mt-lg-4 mt-md-4 mt-3 notifications-border cursor-pointer">
         <Image
-          src="/batch-icon.svg"
+          src="/chat-1.png"
           alt="Your Image Alt Text"
           height={50}
           width={50}
         />
         <div className="w-100 d-flex justify-content-between">
           <div>
-            <h6 className="weight-500">New Flag for Student Name</h6>
+            <h6 className="weight-500">Lorem Ipsum</h6>
             <p className="light-black">Lorem Ipsum is simply dummy text</p>
           </div>
           <div>
@@ -30,26 +30,29 @@ function Activity() {
         </div>
       </div>
 
-      {/* notifcation */}
-      <div className="d-flex gap-3 mt-3 notifications-border cursor-pointer">
+       {/* message */}
+      <div className="d-flex gap-3 mt-lg-4 mt-md-4 mt-3 notifications-border cursor-pointer">
         <Image
-          src="/batch-icon.svg"
+          src="/chat-2.png"
           alt="Your Image Alt Text"
           height={50}
           width={50}
         />
-        <div className="w-100 d-flex">
+        <div className="w-100 d-flex justify-content-between">
           <div>
-            <h6 className="weight-500">Report generated for Student Name</h6>
+            <h6 className="weight-500">Lorem Ipsum</h6>
             <p className="light-black">Lorem Ipsum is simply dummy text</p>
+          </div>
+          <div>
+            <p className="light-black">1 hour ago</p>
           </div>
         </div>
       </div>
 
-      {/* notifcation */}
+       {/* message */}
       <div className="d-flex gap-3 mt-3 notifications-border cursor-pointer">
         <Image
-          src="/batch-icon.svg"
+          src="/chat-3.png"
           alt="Your Image Alt Text"
           height={50}
           width={50}
@@ -67,10 +70,11 @@ function Activity() {
 
       {/* upcoming activity */}
       <div className="w-100 mt-lg-5 mt-md-5 mt-3 d-flex justify-content-between">
-        <h5 className="weight-500 m-0">Upcoming Activity</h5>
+        <h5 className="weight-500 m-0">Suggested Reading</h5>
         <p className="m-0 primary-color caption">See all</p>
       </div>
 
+       {/* suggestion */}
       <div className="d-flex align-items-center  gap-4 mt-lg-4 mt-md-4 mt-3 p-3 activity-container cursor-pointer">
         <Image
           src="/bullet.svg"
@@ -80,8 +84,8 @@ function Activity() {
         />
         <div className="d-flex w-100 justify-content-between">
           <div>
-            <h6 className="weight-500">Monthly Evaluation For Grade 2</h6>
-            <p className="light-black m-0">3 days</p>
+            <h6 className="weight-500">Lorem Ipsum</h6>
+            <p className="light-black m-0">Tika sarak s.pd</p>
           </div>
           <div>
             <p className="light-black ms-3 activity-arrow"> &gt; </p>
@@ -89,6 +93,7 @@ function Activity() {
         </div>
       </div>
 
+       {/* suggestion */}
       <div className="d-flex align-items-center  gap-4 mt-3 p-3 activity-container cursor-pointer">
         <Image
           src="/bullet.svg"
@@ -98,8 +103,8 @@ function Activity() {
         />
         <div className="d-flex w-100 justify-content-between">
           <div>
-            <h6 className="weight-500">Monthly Evaluation For Grade 3</h6>
-            <p className="light-black m-0">5 days</p>
+            <h6 className="weight-500">Lorem Ipsum</h6>
+            <p className="light-black m-0">Tika sarak s.pd</p>
           </div>
           <div>
             <p className="light-black ms-3 activity-arrow"> &gt; </p>
@@ -109,11 +114,11 @@ function Activity() {
 
       {/* Event Timeline */}
       <div className="w-100 mt-lg-5 mt-md-5 mt-3 d-flex justify-content-between">
-        <h5 className="weight-500 m-0">Event Timeline</h5>
+        <h5 className="weight-500 m-0">Upcoming Workshop</h5>
         <p className="m-0 primary-color caption">See all</p>
       </div>
 
-       {/* timeline */}
+      {/* timeline */}
       <div className="d-flex align-items-center  gap-4 mt-lg-4 mt-md-4 mt-3 p-3 activity-container cursor-pointer">
         <Image
           src="/bullet.svg"
@@ -123,7 +128,7 @@ function Activity() {
         />
         <div className="d-flex w-100 justify-content-between">
           <div>
-            <h6 className="weight-500">Meeting with Parents</h6>
+            <h6 className="weight-500">Lorem Ipsum</h6>
             <div className="d-flex gap-2 align-items-center">
               <Image
                 src="/timeline.svg"
@@ -140,7 +145,7 @@ function Activity() {
         </div>
       </div>
 
-       {/* timeline */}
+      {/* timeline */}
       <div className="d-flex align-items-center gap-4 mt-3 p-3 activity-container cursor-pointer">
         <Image
           src="/bullet.svg"
@@ -150,7 +155,7 @@ function Activity() {
         />
         <div className="d-flex w-100 justify-content-between">
           <div>
-            <h6 className="weight-500">Meeting with Therapist</h6>
+            <h6 className="weight-500">Lorem Ipsum</h6>
             <div className="d-flex gap-2 align-items-center">
               <Image
                 src="/timeline.svg"

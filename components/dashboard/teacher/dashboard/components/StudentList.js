@@ -46,19 +46,19 @@ function StudentList() {
         <thead className="studentlist-thead py-4 px-2">
           <tr>
             <th className="py-2 px-1 d-flex align-items-center studentlist-thead-border weight-400 primary-grey-text-color">
-              <div class="student-tbl-border-left"></div>
+              <div className="student-tbl-border-left"></div>
               Name
             </th>
             <th className="studentlist-thead-border px-1 weight-400 primary-grey-text-color">
-              <div class="student-tbl-border-left"></div>
+              <div className="student-tbl-border-left"></div>
               Grade
             </th>
             <th className="studentlist-thead-border px-1 weight-400 primary-grey-text-color">
-              <div class="student-tbl-border-left"></div>
+              <div className="student-tbl-border-left"></div>
               Class
             </th>
             <th className="studentlist-thead-border px-1 weight-400 primary-grey-text-color">
-              <div class="student-tbl-border-left"></div>
+              <div className="student-tbl-border-left"></div>
               Action
             </th>
           </tr>

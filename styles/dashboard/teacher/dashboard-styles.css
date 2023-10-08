@@ -41,11 +41,8 @@
     top: 1;
     bottom: 1;
     height: 70%;
-    /* Set the custom height you want */
     width: 1px;
-    /* Set the width of the left border */
     background: var(--primary-text-gray);
-    /* Border color */
 }
 
 .flag-container {

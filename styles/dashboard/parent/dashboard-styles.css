@@ -1,0 +1,5 @@
+@import "../../common/root.css";
+
+.student-profile-border-bottom {
+    border-bottom: 1px solid var(--primary-text-gray);
+}
