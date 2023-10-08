@@ -1,0 +1,54 @@
+@import "../root.css";
+
+.sidebar-container {
+  width: 240px;
+  height: 98vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+
+.content-contaier {
+  width: calc(100% - 240px);
+  overflow-y: auto;
+}
+
+/* Sidebar */
+.router-text-height {
+  line-height: 1.7;
+}
+
+.active-route {
+  border-left: 2px solid var(--primary-color);
+}
+
+.sidebar-mobile-logo {
+  display: none !important;
+}
+
+
+@media screen and (max-width: 810px) {
+  .router-text {
+    display: none
+  }
+
+  .sidebar-container {
+    width: 65px;
+  }
+
+  .content-contaier {
+    width: calc(100% - 65px);
+    overflow-y: auto;
+  }
+
+  .sidebar-logo {
+    display: none !important;
+  }
+
+  .sidebar-mobile-logo {
+    display: block !important;
+  }
+
+}

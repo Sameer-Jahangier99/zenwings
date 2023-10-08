@@ -1,0 +1,95 @@
+@import "../../common/root.css";
+
+.student-list-main-container {
+    border-radius: 10px;
+}
+
+.student-search-box-input {
+    width: 250px !important;
+    height: 44px !important;
+    background: var(--light-grey);
+}
+
+.student-search-icon {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+
+.student-filter-btn {
+    border: none;
+    border-radius: 5px;
+    background: var(--light-grey);
+}
+
+
+.studentlist-thead {
+    background: var(--light-grey);
+}
+
+.studentlist-thead-border {
+    position: relative;
+    font-size: 18px;
+    font-family: var(--font-poppins);
+
+}
+
+.student-tbl-border-left {
+
+    position: absolute;
+    left: 0;
+    top: 1;
+    bottom: 1;
+    height: 70%;
+    /* Set the custom height you want */
+    width: 1px;
+    /* Set the width of the left border */
+    background: var(--primary-text-gray);
+    /* Border color */
+}
+
+.flag-container {
+    background: #25caac40;
+    border-radius: 20px;
+}
+
+.notifications-border {
+    border-bottom: 1px solid var(--primary-text-gray);
+}
+
+.activity-container {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 15px;
+}
+
+.activity-arrow {
+    font-size: 20px;
+}
+
+.generate-report-btn {
+    background: var(--secondary-color);
+    color: var(--white);
+    font-family: var(--font-poppins);
+    font-size: 18px;
+}
+
+.generate-report-btn:hover {
+    background: var(--secondary-color);
+    color: var(--white);
+    font-family: var(--font-poppins);
+    font-size: 18px;
+}
+
+.set-appointment-btn {
+    background: var(--primary-color);
+    color: var(--white);
+    font-family: var(--font-poppins);
+    font-size: 18px;
+}
+
+.set-appointment-btn:hover {
+    background: var(--primary-color);
+    color: var(--white);
+    font-family: var(--font-poppins);
+    font-size: 18px;
+}

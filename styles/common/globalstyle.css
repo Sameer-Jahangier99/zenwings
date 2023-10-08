@@ -1,0 +1,242 @@
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import './root.css';
+/* Fonts */
+h1 {
+  font-size: 38px;
+  font-family: var(--font-poppins);
+}
+
+h2 {
+  font-size: 28px;
+  font-family: var(--font-poppins);
+}
+
+h3 {
+  font-size: 24px;
+  font-family: var(--font-poppins);
+}
+
+h4 {
+  font-size: 20px;
+  font-family: var(--font-poppins);
+}
+
+h5 {
+  font-size: 18px;
+  font-family: var(--font-poppins);
+}
+
+h6 {
+  font-size: 16px;
+  font-family: var(--font-poppins);
+}
+
+p {
+  font-size: 14px;
+  font-family: var(--font-poppins);
+}
+
+
+.caption {
+  font-size: 12px;
+  font-family: var(--font-poppins);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+/* colors */
+.primary-color {
+  color: var(--primary-color);
+}
+
+.dark-grey {
+  color: var(--dark-grey);
+}
+
+.black-color {
+  color: var(--black);
+}
+
+.light-black {
+  color: var(--light-black);
+}
+
+.white-color {
+  color: var(--white)
+}
+
+
+.primary-grey-text-color {
+  color: var(--primary-text-gray);
+}
+
+
+ /* overide bootstrap */
+ .btn-success {
+  background: var(--sky-blue) !important;
+  color: black !important;
+  border: none !important;
+ }
+
+ .btn-secondary {
+  background: var(--light-grey) !important;
+  color: var(--light-black) !important;
+  border: none !important;
+ }
+
+/* Background Colors */
+
+.sky-blue-background-color {
+  background: var(--sky-blue);
+}
+
+.off-white-background {
+  background: var(--off-white);
+}
+
+.light-grey-background {
+  background: var(--light-grey);
+}
+
+.white-background {
+  background: var(--white);
+}
+
+/* font weight  */
+
+.weight-800 {
+  font-weight: 800;
+}
+
+.weight-700 {
+  font-weight: 700;
+}
+
+.weight-600 {
+  font-weight: 600;
+}
+
+.weight-500 {
+  font-weight: 500;
+}
+
+.weight-400 {
+  font-weight: 400;
+}
+
+.common-border-radius {
+  border-radius: 10px;
+}
+
+
+/* For Ipad & Ipad Pro */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .caption {
+    font-size: 12px;
+  }
+
+}
+
+/* For Mobile Screens */
+@media screen and (max-width: 767px) and (min-width: 340px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .caption {
+    font-size: 12px;
+  }
+}
+
+
+
+/* For Mobile Screens */
+@media screen and (max-width: 339px) {
+  h1 {
+    font-size: 26spx;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .caption {
+    font-size: 12px;
+  }
+}

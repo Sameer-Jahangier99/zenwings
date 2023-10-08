@@ -1,0 +1,23 @@
+.notification-icon-container {
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+
+.search-box-input {
+    width: 360px !important;
+    height: 44px !important;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .search-box-input {
+        width: 200px !important;
+        height: 44px !important;
+    }
+}
