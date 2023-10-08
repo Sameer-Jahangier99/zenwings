@@ -5,7 +5,7 @@ import Image from "next/image";
 function Sidebar() {
   return (
     <div className="d-flex flex-column h-100">
-      <div className="d-flex ms-3 ">
+      <div className="d-flex ms-3 mt-2 ">
         <Image
           src="/zenwingslogo.svg"
           alt="Your Image Alt Text"
