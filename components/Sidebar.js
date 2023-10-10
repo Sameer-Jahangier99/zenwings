@@ -5,18 +5,18 @@ import Image from "next/image";
 function Sidebar() {
   return (
     <div className="d-flex flex-column h-100">
-      <div className="d-flex ms-3 mt-2 ">
+      <div className="d-flex justify-content-center mt-2 ">
         <Image
-          src="/zenwingslogo.svg"
+          src="/zenwinglogo.png"
           alt="Your Image Alt Text"
           className="sidebar-logo"
-          height={50}
-          width={170}
+          height={150}
+          width={200}
         />
       </div>
       <div className="d-flex ms-md-3 ms-2">
         <Image
-          src="/zenwingsmobilelogo.svg"
+          src="/zenwingmobilelogo.png"
           alt="Your Image Alt Text"
           className="sidebar-mobile-logo"
           height={50}
@@ -24,7 +24,7 @@ function Sidebar() {
         />
       </div>
       <div className="flex-grow-1 d-flex flex-column justify-content-between">
-        <div className="d-flex flex-column justify-content-center mt-5">
+        <div className="d-flex flex-column justify-content-center mt-lg-5 mt-md-5 mt-3">
           {/* router  */}
           <div className="d-flex gap-2 algin-items-center w-100 justify-content-start active-route cursor-pointer">
             <div className="ms-3">
