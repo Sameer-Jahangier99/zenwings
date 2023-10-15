@@ -81,7 +81,9 @@ function PatientData() {
               <h5 className="weight-400 m-0">Annette Black</h5>
             </td>
             <td>
-              <h5 className="weight-400 m-0 primary-grey-text-color">2020-04-26</h5>
+              <h5 className="weight-400 m-0 primary-grey-text-color">
+                2020-04-26
+              </h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">Fever</h5>
@@ -94,7 +96,11 @@ function PatientData() {
             </td>
             <td>
               <Dropdown>
-                <Dropdown.Toggle variant="success" id="dropdown-basic1">
+                <Dropdown.Toggle
+                  variant="success"
+                  id="dropdown-basic1"
+                  className="student-list-menu-btn"
+                >
                   <span className="custom-dropdown-toggle">
                     <Image
                       src="/menu-icon.svg"
@@ -106,12 +112,32 @@ function PatientData() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">
-                    Another action
+                  <Dropdown.Item href="#/action-1" className="d-flex gap-2">
+                    <Image
+                      src="/notes-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    Add Notes
                   </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Something else
+                  <Dropdown.Item href="#/action-2" className="d-flex gap-2">
+                    <Image
+                      src="/conversation-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    Send Message
+                  </Dropdown.Item>
+                  <Dropdown.Item href="#/action-3" className="d-flex gap-2">
+                    <Image
+                      src="/profile-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    View Profile
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
@@ -130,7 +156,9 @@ function PatientData() {
               <h5 className="weight-400 m-0">Jerome Bell</h5>
             </td>
             <td>
-              <h5 className="weight-400 m-0 primary-grey-text-color">2020-04-26</h5>
+              <h5 className="weight-400 m-0 primary-grey-text-color">
+                2020-04-26
+              </h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">Fever</h5>
@@ -143,7 +171,11 @@ function PatientData() {
             </td>
             <td>
               <Dropdown>
-                <Dropdown.Toggle variant="success" id="dropdown-basic1">
+                <Dropdown.Toggle
+                  variant="success"
+                  id="dropdown-basic1"
+                  className="student-list-menu-btn"
+                >
                   <span className="custom-dropdown-toggle">
                     <Image
                       src="/menu-icon.svg"
@@ -155,12 +187,32 @@ function PatientData() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">
-                    Another action
+                  <Dropdown.Item href="#/action-1" className="d-flex gap-2">
+                    <Image
+                      src="/notes-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    Add Notes
                   </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Something else
+                  <Dropdown.Item href="#/action-2" className="d-flex gap-2">
+                    <Image
+                      src="/conversation-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    Send Message
+                  </Dropdown.Item>
+                  <Dropdown.Item href="#/action-3" className="d-flex gap-2">
+                    <Image
+                      src="/profile-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    View Profile
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
@@ -179,7 +231,9 @@ function PatientData() {
               <h5 className="weight-400 m-0">Jerome Bell</h5>
             </td>
             <td>
-              <h5 className="weight-400 m-0 primary-grey-text-color">2020-04-26</h5>
+              <h5 className="weight-400 m-0 primary-grey-text-color">
+                2020-04-26
+              </h5>
             </td>
             <td>
               <h5 className="weight-400 m-0  primary-grey-text-color">Fever</h5>
@@ -192,7 +246,11 @@ function PatientData() {
             </td>
             <td>
               <Dropdown>
-                <Dropdown.Toggle variant="success" id="dropdown-basic1">
+                <Dropdown.Toggle
+                  variant="success"
+                  id="dropdown-basic1"
+                  className="student-list-menu-btn"
+                >
                   <span className="custom-dropdown-toggle">
                     <Image
                       src="/menu-icon.svg"
@@ -204,12 +262,32 @@ function PatientData() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">
-                    Another action
+                  <Dropdown.Item href="#/action-1" className="d-flex gap-2">
+                    <Image
+                      src="/notes-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    Add Notes
                   </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Something else
+                  <Dropdown.Item href="#/action-2" className="d-flex gap-2">
+                    <Image
+                      src="/conversation-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    Send Message
+                  </Dropdown.Item>
+                  <Dropdown.Item href="#/action-3" className="d-flex gap-2">
+                    <Image
+                      src="/profile-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    View Profile
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
@@ -228,7 +306,9 @@ function PatientData() {
               <h5 className="weight-400 m-0">Jerome Bell</h5>
             </td>
             <td>
-              <h5 className="weight-400 m-0 primary-grey-text-color">2020-04-26</h5>
+              <h5 className="weight-400 m-0 primary-grey-text-color">
+                2020-04-26
+              </h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">Fever</h5>
@@ -242,7 +322,11 @@ function PatientData() {
             </td>
             <td>
               <Dropdown>
-                <Dropdown.Toggle variant="success" id="dropdown-basic1">
+                <Dropdown.Toggle
+                  variant="success"
+                  id="dropdown-basic1"
+                  className="student-list-menu-btn"
+                >
                   <span className="custom-dropdown-toggle">
                     <Image
                       src="/menu-icon.svg"
@@ -254,12 +338,32 @@ function PatientData() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">
-                    Another action
+                  <Dropdown.Item href="#/action-1" className="d-flex gap-2">
+                    <Image
+                      src="/notes-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    Add Notes
                   </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Something else
+                  <Dropdown.Item href="#/action-2" className="d-flex gap-2">
+                    <Image
+                      src="/conversation-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    Send Message
+                  </Dropdown.Item>
+                  <Dropdown.Item href="#/action-3" className="d-flex gap-2">
+                    <Image
+                      src="/profile-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    View Profile
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
@@ -278,7 +382,9 @@ function PatientData() {
               <h5 className="weight-400 m-0">Jerome Bell</h5>
             </td>
             <td>
-              <h5 className="weight-400 m-0 primary-grey-text-color">2020-04-26</h5>
+              <h5 className="weight-400 m-0 primary-grey-text-color">
+                2020-04-26
+              </h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">Fever</h5>
@@ -291,7 +397,11 @@ function PatientData() {
             </td>
             <td>
               <Dropdown>
-                <Dropdown.Toggle variant="success" id="dropdown-basic1">
+                <Dropdown.Toggle
+                  variant="success"
+                  id="dropdown-basic1"
+                  className="student-list-menu-btn"
+                >
                   <span className="custom-dropdown-toggle">
                     <Image
                       src="/menu-icon.svg"
@@ -303,18 +413,37 @@ function PatientData() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">
-                    Another action
+                  <Dropdown.Item href="#/action-1" className="d-flex gap-2">
+                    <Image
+                      src="/notes-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    Add Notes
                   </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Something else
+                  <Dropdown.Item href="#/action-2" className="d-flex gap-2">
+                    <Image
+                      src="/conversation-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    Send Message
+                  </Dropdown.Item>
+                  <Dropdown.Item href="#/action-3" className="d-flex gap-2">
+                    <Image
+                      src="/profile-icon.svg"
+                      alt="Your Image Alt Text"
+                      height={20}
+                      width={20}
+                    />
+                    View Profile
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </td>
           </tr>
-          
         </tbody>
       </table>
     </div>
