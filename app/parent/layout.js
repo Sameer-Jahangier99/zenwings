@@ -10,13 +10,19 @@ export const metadata = {
   title: "Zenwings",
 };
 
+const routes = [
+  { name: "Dahboard", icon: "/dashboarIcon.svg", isActive: true },
+  { name: "Communications", icon: "/speech-bubble.svg", isActive: false },
+  { name: "Reporting", icon: "/report.svg", isActive: false },
+  { name: "Support", icon: "/customer-support.svg", isActive: false },
+];
 export default function ParentLayout({ children }) {
   return (
     <html lang="en">
       <body>
         <div className="d-flex">
           <div className="sidebar-container fixed-sidebar">
-            <Sidebar />
+            <Sidebar routes={routes} />
           </div>
           <div className="content-contaier sky-blue-background-color">
             <Header />

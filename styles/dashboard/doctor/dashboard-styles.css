@@ -1,0 +1,184 @@
+.add-new-data-btn {
+    background: var(--primary-color);
+    color: var(--white);
+    font-family: var(--font-poppins);
+    font-size: 12px;
+    border: none !important;
+}
+
+.add-new-data-btn:hover {
+    background: var(--primary-color);
+    color: var(--white);
+    font-family: var(--font-poppins);
+    font-size: 12px;
+}
+
+.report-filter button {
+    font-family: var(--font-poppins) !important;
+    font-size: 12px !important;
+}
+
+.patient-data-filter button {
+    font-family: var(--font-poppins) !important;
+    font-size: 12px !important;
+}
+
+
+.total-admitted-color {
+    background: var(--pink-color);
+    height: 14px;
+    width: 15px;
+}
+
+.total-discharged-color {
+    background: var(--primary-color);
+    height: 14px;
+    width: 15px;
+}
+
+.report-border-right {
+    border-right: 1px solid var(--light-black);
+}
+
+.patient-data-box-input {
+    width: 250px !important;
+    height: 36px !important;
+    background: var(--white) !important;
+    color: var(--primary-text-gray) !important;
+    border: 1px solid var(--primary-text-gray) !important;
+}
+
+#patient-data-box-input1::placeholder {
+    color: var(--primary-text-gray) !important;
+    /* Replace with your desired color value */
+}
+
+.patient-search-icon {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+}
+
+.filter-btn {
+    border: 1px solid var(--primary-text-gray) !important;
+    border-radius: 4px;
+    background: var(--white) !important;
+}
+
+.patient-filter-button button {
+    background: var(--white) !important;
+    color: var(--primary-text-gray);
+    border: 1px solid var(--primary-text-gray) !important;
+}
+
+
+.patient-filter-button button:hover {
+    background: var(--white) !important;
+    color: var(--primary-text-gray);
+    border: 1px solid var(--primary-text-gray) !important;
+}
+
+.patient-filter-button button:active {
+    background: var(--white) !important;
+    color: var(--primary-text-gray);
+    border: 1px solid var(--primary-text-gray) !important;
+}
+
+
+#dropdown-basic1::after {
+    content: none !important;
+}
+
+.recovered-btn {
+    background: var(--purple-btn) !important;
+    border: 1px solid var(--purple-btn);
+    width: 99px;
+}
+
+.recovered-bullete {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: var(--dark-purple);
+}
+
+.recovered-btn-text {
+    color: var(--dark-purple);
+    font-size: 12px;
+}
+
+
+.post-btn {
+    background: none !important;
+    border: 1px solid var(--dark-green);
+    width: 99px;
+}
+
+.post-bullete {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: var(--dark-green);
+}
+
+.post-btn-text {
+    color: var(--dark-green);
+    font-size: 12px;
+}
+
+.treatment-btn {
+    background: var(--orange) !important;
+    border: 1px solid var(--dark-orange);
+    width: 99px;
+}
+
+.treatment-bullete {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: var(--dark-orange);
+}
+
+.treatment-btn-text {
+    color: var(--dark-orange);
+    font-size: 12px;
+}
+
+.aqua-bullete {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: var(--aqua);
+}
+
+.parrete-bullete {
+    background: var(--parrot);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+
+.border-bottom {
+    border-bottom: 1px solid var(--primary-text-gray);
+}
+
+.reject-collaboration-btn {
+    background: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    color: var(--primary-color);
+}
+
+
+.accept-collaboration-btn {
+    background: var(--primary-color);
+    border-radius: 20px;
+    color: var(--white);
+    border: none !important;
+}
+
+
+.collaboration-container {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
