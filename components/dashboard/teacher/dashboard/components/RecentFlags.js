@@ -26,7 +26,7 @@ function StudentList() {
             height={50}
             width={50}
           />
-          <h5 className="weight-400 m-0">Student Name</h5>
+          <h5 className="weight-400 m-0">Abbas</h5>
         </div>
         <div className="flag-container px-4 py-1 ">
 
@@ -42,7 +42,7 @@ function StudentList() {
             height={50}
             width={50}
           />
-          <h5 className="weight-400 m-0">Student Name</h5>
+          <h5 className="weight-400 m-0">Aladdin</h5>
         </div>
         <div className="flag-container px-4 py-1 ">
 

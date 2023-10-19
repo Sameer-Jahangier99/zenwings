@@ -5,13 +5,16 @@ import Image from "next/image";
 //  Styles
 import "../styles/common/layout/header.css";
 
+// Shared
+import {getCurrentDateFormatted } from '../shared/index'
+
 function Header() {
   return (
     <Navbar key="md" expand="md" className="bg-body-tertiary mb-3">
       <Container fluid>
         <Navbar.Brand href="#">
           <h2 className="weight-600 black-color">Dashboard</h2>
-          <p className="weight-400 light-black">Monday, 11 September 2023</p>
+          <p className="weight-400 light-black">{getCurrentDateFormatted()}</p>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
         <Navbar.Offcanvas
@@ -64,9 +67,8 @@ function Header() {
                       height={40}
                       width={40}
                     />
-                    <h5 className="weight-500">
-                      Fatima Al-
-                      <br /> Hassan
+                    <h5 className="weight-500 m-0">
+                      Fatima
                     </h5>
                   </div>
                 </Dropdown.Toggle>

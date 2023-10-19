@@ -78,7 +78,7 @@ function PatientData() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Annette Black</h5>
+              <h5 className="weight-400 m-0">Abbas</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">
@@ -153,7 +153,7 @@ function PatientData() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Jerome Bell</h5>
+              <h5 className="weight-400 m-0">Aladdin</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">
@@ -228,7 +228,7 @@ function PatientData() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Jerome Bell</h5>
+              <h5 className="weight-400 m-0">Waleed</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">
@@ -303,7 +303,7 @@ function PatientData() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Jerome Bell</h5>
+              <h5 className="weight-400 m-0">Abu Hurayrah</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">
@@ -379,7 +379,7 @@ function PatientData() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Jerome Bell</h5>
+              <h5 className="weight-400 m-0">Ayman</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">

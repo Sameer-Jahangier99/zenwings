@@ -73,7 +73,7 @@ function StudentList() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Student Name</h5>
+              <h5 className="weight-400 m-0">Abbas</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0">2</h5>
@@ -103,7 +103,7 @@ function StudentList() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Student Name</h5>
+              <h5 className="weight-400 m-0">Aladdin</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0">1</h5>
@@ -133,7 +133,7 @@ function StudentList() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Student Name</h5>
+              <h5 className="weight-400 m-0">Waleed</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0">3</h5>
@@ -163,7 +163,7 @@ function StudentList() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Student Name</h5>
+              <h5 className="weight-400 m-0">Abu Hurayrah</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0">3</h5>
@@ -188,12 +188,12 @@ function StudentList() {
           <tr>
             <td className="d-flex gap-2 align-items-center py-2">
               <Image
-                src="/student3.png"
+                src="/student5.png"
                 alt="Your Image Alt Text"
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Student Name</h5>
+              <h5 className="weight-400 m-0">Ayman</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0">3</h5>

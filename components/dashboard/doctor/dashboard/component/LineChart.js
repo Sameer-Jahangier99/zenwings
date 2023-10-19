@@ -58,21 +58,35 @@ const generateRandomData = () => {
   return labels.map(() => Math.floor(Math.random() * 100));
 };
 
+// Function to find the sum of an array
+const findSum = (arr) => {
+  return arr.reduce((acc, current) => acc + current, 0);
+};
 
+
+// Generate random data
+const admittedData = generateRandomData();
+const dischargedData = generateRandomData();
+
+// Find the maximum numbers
+const totalAdmitted = findSum(admittedData);
+const totalDischarged = findSum(dischargedData);
+
+// Define the data object
 export const data = {
   labels,
   datasets: [
     {
-      label: "Flag",
-      data: generateRandomData(),
-      borderColor: "#25CAAC",
-      backgroundColor: "#25CAAC",
+      label: "Admitted",
+      data: admittedData,
+      borderColor: "#FB8D8D",
+      backgroundColor: "#FB8D8D",
     },
     {
-      label: "Activity",
-      data: generateRandomData(),
-      borderColor: "#3AA1FF",
-      backgroundColor: "#3AA1FF",
+      label: "Discharged",
+      data: dischargedData,
+      borderColor: "#25CAAC",
+      backgroundColor: "#25CAAC",
     },
   ],
 };
@@ -105,7 +119,7 @@ function LineChart() {
       <div className="row mb-3">
         <div className="col-md-3 report-border-right">
           <p className="caption primary-grey-text-color  m-0">Total Patients</p>
-          <h5 className="weight-600 mt-3">502.414</h5>
+          <h5 className="weight-600 mt-3">502</h5>
         </div>
         <div className="col-md-3 report-border-right">
           <div className="d-flex gap-2 align-items-center">
@@ -114,7 +128,7 @@ function LineChart() {
               Total Admitted
             </p>
           </div>
-          <h5 className="weight-600 mt-3">42.414</h5>
+          <h5 className="weight-600 mt-3">{totalAdmitted}</h5>
         </div>
         <div className="col-md-3">
           <div className="d-flex gap-2 align-items-center">
@@ -123,7 +137,7 @@ function LineChart() {
               Total Discharged
             </p>
           </div>
-          <h5 className="weight-600 mt-3">1.414</h5>
+          <h5 className="weight-600 mt-3">{totalDischarged}</h5>
         </div>
       </div>
       <Line options={options} data={data} />

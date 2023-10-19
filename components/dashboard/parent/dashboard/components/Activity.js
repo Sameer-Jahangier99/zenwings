@@ -25,7 +25,7 @@ function Activity() {
             <p className="light-black">Lorem Ipsum is simply dummy text</p>
           </div>
           <div>
-            <p className="light-black">1 hour ago</p>
+            <p className="light-black">2 months ago</p>
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@ function Activity() {
             <p className="light-black">Lorem Ipsum is simply dummy text</p>
           </div>
           <div>
-            <p className="light-black">1 hour ago</p>
+            <p className="light-black">4 months ago</p>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@ function Activity() {
             <p className="light-black">Lorem Ipsum is simply dummy text</p>
           </div>
           <div>
-            <p className="light-black">4 hour ago</p>
+            <p className="light-black">6 months ago</p>
           </div>
         </div>
       </div>

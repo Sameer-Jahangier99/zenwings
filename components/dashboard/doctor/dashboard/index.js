@@ -1,8 +1,9 @@
 import React from "react";
+import dynamic from 'next/dynamic'
 
 // Components
 import IntroBanner from "../../common/IntroBanner";
-import LineChart from "./component/LineChart";
+const LineChart = dynamic(() => import('./component/LineChart'), { ssr: false })
 import PatientData from "./component/PatientData";
 import UpcomingActivities from "./component/UpcomingActivities";
 import CollaborationRequests from "./component/CollaborationRequests";
