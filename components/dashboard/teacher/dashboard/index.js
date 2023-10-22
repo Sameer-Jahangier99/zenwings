@@ -12,7 +12,10 @@ function TeacherDashboard() {
     <main className="container">
       <div className="row">
         <div className="col-lg-7 col-md-12">
-          <IntroBanner title="Welcome Teacher" />
+          <IntroBanner
+            title="Welcome Teacher"
+            description="Education Beyond the Classroom: Crafting Tomorrow's Thinkers Today."
+          />
           <StudentList />
           <RecentFlags />
         </div>

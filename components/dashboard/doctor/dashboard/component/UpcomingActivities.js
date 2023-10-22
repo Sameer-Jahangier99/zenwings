@@ -13,10 +13,9 @@ function UpcomingActivities() {
         <div>
           <div className="d-flex gap-2 align-items-center">
             <div className="aqua-bullete"></div>
-            <p className="light-black m-0">10:00 AM - 10:30 AM</p>
+            <p className="light-black m-0">08:30 AM - 10:30 AM</p>
           </div>
-          <p className="weight-500 mt-2">Nurse Visit 20</p>
-          <p className="light-black">Dr. Wilhelmina</p>
+          <p className="weight-500 mt-2">Ayman - session 24</p>
         </div>
 
         <p className="light-black ms-3 activity-arrow"> &gt; </p>
@@ -28,8 +27,7 @@ function UpcomingActivities() {
             <div className="treatment-bullete"></div>
             <p className="light-black m-0">1:30 PM - 02:30 PM</p>
           </div>
-          <p className="weight-500 mt-2">Annual Visit 15</p>
-          <p className="light-black">Dr. Bernard</p>
+          <p className="weight-500 mt-2">Mansoure - session 12</p>
         </div>
 
         <p className="light-black ms-3 activity-arrow"> &gt; </p>
@@ -41,13 +39,11 @@ function UpcomingActivities() {
             <div className="parrete-bullete"></div>
             <p className="light-black m-0">04:30 PM - 05:30 PM</p>
           </div>
-          <p className="weight-500 mt-2">Annual Visit 15</p>
-          <p className="light-black">Dr. Bernard</p>
+          <p className="weight-500 mt-2">Waleed - New consultation</p>
         </div>
 
         <p className="light-black ms-3 activity-arrow"> &gt; </p>
       </div>
-
     </div>
   );
 }

@@ -1,9 +1,11 @@
 import React from "react";
-import dynamic from 'next/dynamic'
+import dynamic from "next/dynamic";
 
 // Components
 import IntroBanner from "../../common/IntroBanner";
-const LineChart = dynamic(() => import('./component/LineChart'), { ssr: false })
+const LineChart = dynamic(() => import("./component/LineChart"), {
+  ssr: false,
+});
 import PatientData from "./component/PatientData";
 import UpcomingActivities from "./component/UpcomingActivities";
 import CollaborationRequests from "./component/CollaborationRequests";
@@ -15,7 +17,10 @@ function TeacherDashboard() {
     <main className="container">
       <div className="row">
         <div className="col-lg-7 col-md-12">
-          <IntroBanner title="Dr. Hannah Wildridge" />
+          <IntroBanner
+            title="Dr. Amina"
+            description="Healing Starts Here: Let's Navigate Life's Challenges Together."
+          />
           <PatientData />
           <LineChart />
         </div>

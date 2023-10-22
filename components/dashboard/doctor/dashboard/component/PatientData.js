@@ -78,15 +78,15 @@ function PatientData() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Abbas</h5>
+              <h5 className="weight-400 m-0">Jamal</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">
-                2020-04-26
+              2023-04-26
               </h5>
             </td>
             <td>
-              <h5 className="weight-400 m-0 primary-grey-text-color">Fever</h5>
+              <h5 className="weight-400 m-0 primary-grey-text-color">Dyslexia</h5>
             </td>
             <td>
               <button className="d-flex gap-2  align-items-center recovered-btn p-2">
@@ -153,15 +153,15 @@ function PatientData() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Aladdin</h5>
+              <h5 className="weight-400 m-0">Waleed</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">
-                2020-04-26
+              2023-10-14
               </h5>
             </td>
             <td>
-              <h5 className="weight-400 m-0 primary-grey-text-color">Fever</h5>
+              <h5 className="weight-400 m-0 primary-grey-text-color">Dyscalculia</h5>
             </td>
             <td>
               <button className="d-flex gap-2  align-items-center post-btn p-2">
@@ -228,15 +228,15 @@ function PatientData() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Waleed</h5>
+              <h5 className="weight-400 m-0">Ayman</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">
-                2020-04-26
+              2022-07-05
               </h5>
             </td>
             <td>
-              <h5 className="weight-400 m-0  primary-grey-text-color">Fever</h5>
+              <h5 className="weight-400 m-0  primary-grey-text-color">Dyslexia</h5>
             </td>
             <td>
               <button className="d-flex gap-2 align-items-center treatment-btn p-2">
@@ -303,15 +303,15 @@ function PatientData() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Abu Hurayrah</h5>
+              <h5 className="weight-400 m-0">Mohammed</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">
-                2020-04-26
+              2023-06-10
               </h5>
             </td>
             <td>
-              <h5 className="weight-400 m-0 primary-grey-text-color">Fever</h5>
+              <h5 className="weight-400 m-0 primary-grey-text-color">Dysgraphia</h5>
             </td>
 
             <td>
@@ -379,15 +379,15 @@ function PatientData() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Ayman</h5>
+              <h5 className="weight-400 m-0">Mansour</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0 primary-grey-text-color">
-                2020-04-26
+              2022-05-25
               </h5>
             </td>
             <td>
-              <h5 className="weight-400 m-0 primary-grey-text-color">Fever</h5>
+              <h5 className="weight-400 m-0 primary-grey-text-color">Dyscalculia</h5>
             </td>
             <td>
               <button className="d-flex gap-2 align-items-center treatment-btn p-2">

@@ -21,8 +21,8 @@ function Activity() {
         />
         <div className="w-100 d-flex justify-content-between">
           <div>
-            <h6 className="weight-500">Lorem Ipsum</h6>
-            <p className="light-black">Lorem Ipsum is simply dummy text</p>
+            <h6 className="weight-500">Amir [Teacher]</h6>
+            <p className="light-black">Hello Maryam, we notice an improvement ...</p>
           </div>
           <div>
             <p className="light-black">2 months ago</p>
@@ -40,8 +40,8 @@ function Activity() {
         />
         <div className="w-100 d-flex justify-content-between">
           <div>
-            <h6 className="weight-500">Lorem Ipsum</h6>
-            <p className="light-black">Lorem Ipsum is simply dummy text</p>
+            <h6 className="weight-500">Amina [Psychologist]</h6>
+            <p className="light-black">Before our next meeting I need your ...</p>
           </div>
           <div>
             <p className="light-black">4 months ago</p>
@@ -59,8 +59,8 @@ function Activity() {
         />
         <div className="w-100 d-flex justify-content-between">
           <div>
-            <h6 className="weight-500">New appointment requested</h6>
-            <p className="light-black">Lorem Ipsum is simply dummy text</p>
+            <h6 className="weight-500">Amir [Teacher]</h6>
+            <p className="light-black">We observed that Jamal is struggling in ...</p>
           </div>
           <div>
             <p className="light-black">6 months ago</p>
@@ -84,8 +84,8 @@ function Activity() {
         />
         <div className="d-flex w-100 justify-content-between">
           <div>
-            <h6 className="weight-500">Lorem Ipsum</h6>
-            <p className="light-black m-0">Tika sarak s.pd</p>
+            <h6 className="weight-500">How to log your children's behaviors</h6>
+            <p className="light-black m-0">ZenWings User Materials </p>
           </div>
           <div>
             <p className="light-black ms-3 activity-arrow"> &gt; </p>
@@ -103,8 +103,8 @@ function Activity() {
         />
         <div className="d-flex w-100 justify-content-between">
           <div>
-            <h6 className="weight-500">Lorem Ipsum</h6>
-            <p className="light-black m-0">Tika sarak s.pd</p>
+            <h6 className="weight-500">Explaining Learning Disabilities</h6>
+            <p className="light-black m-0">Video</p>
           </div>
           <div>
             <p className="light-black ms-3 activity-arrow"> &gt; </p>
@@ -128,7 +128,7 @@ function Activity() {
         />
         <div className="d-flex w-100 justify-content-between">
           <div>
-            <h6 className="weight-500">Lorem Ipsum</h6>
+            <h6 className="weight-500">Monthly meeting with Amir</h6>
             <div className="d-flex gap-2 align-items-center">
               <Image
                 src="/timeline.svg"
@@ -136,7 +136,7 @@ function Activity() {
                 height={20}
                 width={20}
               />
-              <p className="light-black m-0">10.00 - 12.00</p>
+              <p className="light-black m-0">Tue, Oct 15, 14:00 - 14:30</p>
             </div>
           </div>
           <div>
@@ -155,7 +155,7 @@ function Activity() {
         />
         <div className="d-flex w-100 justify-content-between">
           <div>
-            <h6 className="weight-500">Lorem Ipsum</h6>
+            <h6 className="weight-500">Bi-monthly meeting with psychologist</h6>
             <div className="d-flex gap-2 align-items-center">
               <Image
                 src="/timeline.svg"
@@ -163,7 +163,7 @@ function Activity() {
                 height={20}
                 width={20}
               />
-              <p className="light-black m-0">10.00 - 12.00</p>
+              <p className="light-black m-0">Wen, Oct 16, 18:00 - 18:40</p>
             </div>
           </div>
           <div>

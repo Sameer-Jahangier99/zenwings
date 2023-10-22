@@ -13,7 +13,7 @@ function ParentDashboard() {
     <main className="container">
       <div className="row">
         <div className="col-lg-7 col-md-12">
-          <IntroBanner title="Welcome Parents" />
+          <IntroBanner title="Welcome Parents" description="Your Child's Growth Story, Powered by Data: Be Informed, Be Involved" />
           <BarChart />
           <ChildProfiles />
         </div>

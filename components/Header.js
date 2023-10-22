@@ -1,14 +1,29 @@
 "use client";
 import { Dropdown, Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 
 //  Styles
 import "../styles/common/layout/header.css";
 
 // Shared
-import {getCurrentDateFormatted } from '../shared/index'
+import { getCurrentDateFormatted } from "../shared/index";
 
 function Header() {
+  const pathname = usePathname();
+
+  const handleConditionalLoggedName = () => {
+    if (pathname.includes("/doctor")) return "Amina";
+    else if (pathname.includes("/parent")) return "Maryam";
+    else return "Amir";
+  };
+
+  const handleConditionalLoggedImage = () => {
+    if (pathname.includes("/doctor")) return "/avatar.png";
+    else if (pathname.includes("/parent")) return "/maryam.svg" ;
+    else return "/chat-1.png";
+  };
+
   return (
     <Navbar key="md" expand="md" className="bg-body-tertiary mb-3">
       <Container fluid>
@@ -62,13 +77,13 @@ function Header() {
                 >
                   <div className="d-flex gap-3 align-items-center">
                     <Image
-                      src="/avatar.png"
+                      src={handleConditionalLoggedImage()}
                       alt="Your Image Alt Text"
                       height={40}
                       width={40}
                     />
                     <h5 className="weight-500 m-0">
-                      Fatima
+                      {handleConditionalLoggedName()}
                     </h5>
                   </div>
                 </Dropdown.Toggle>

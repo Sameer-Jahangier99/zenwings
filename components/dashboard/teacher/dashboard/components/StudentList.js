@@ -46,20 +46,60 @@ function StudentList() {
         <thead className="studentlist-thead py-4 px-2">
           <tr>
             <th className="py-2 px-1 d-flex align-items-center studentlist-thead-border weight-400 primary-grey-text-color">
-              <div className="student-tbl-border-left"></div>
-              Name
+              <div className="student-tbl-border-left me-2"></div>
+              <span className="ms-1">Name</span>
             </th>
             <th className="studentlist-thead-border px-1 weight-400 primary-grey-text-color">
               <div className="student-tbl-border-left"></div>
-              Grade
+              <Dropdown>
+                <Dropdown.Toggle
+                  variant="success"
+                  id="dropdown-basic1"
+                  className="student-list-class-btn primary-grey-text-color"
+                >
+                  Grade
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1" className="d-flex gap-2">
+                    Grade 1
+                  </Dropdown.Item>
+                  <Dropdown.Item href="#/action-2" className="d-flex gap-2">
+                    Grade 2
+                  </Dropdown.Item>
+                  <Dropdown.Item href="#/action-3" className="d-flex gap-2">
+                    Grade 3
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </th>
+            <th className="studentlist-thead-border px-1 weight-400 primary-grey-text-color d-flex align-items-center">
+              <div className="student-tbl-border-left"></div>
+              <Dropdown>
+                <Dropdown.Toggle
+                  variant="success"
+                  id="dropdown-basic1"
+                  className="student-list-class-btn primary-grey-text-color"
+                >
+                  Class
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1" className="d-flex gap-2">
+                    Class 1
+                  </Dropdown.Item>
+                  <Dropdown.Item href="#/action-2" className="d-flex gap-2">
+                    Class 2
+                  </Dropdown.Item>
+                  <Dropdown.Item href="#/action-3" className="d-flex gap-2">
+                    Class 3
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
             </th>
             <th className="studentlist-thead-border px-1 weight-400 primary-grey-text-color">
               <div className="student-tbl-border-left"></div>
-              Class
-            </th>
-            <th className="studentlist-thead-border px-1 weight-400 primary-grey-text-color">
-              <div className="student-tbl-border-left"></div>
-              Action
+              <span className="ms-1">Action</span>
             </th>
           </tr>
         </thead>
@@ -73,7 +113,7 @@ function StudentList() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Abbas</h5>
+              <h5 className="weight-400 m-0">Jammal</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0">2</h5>
@@ -103,7 +143,7 @@ function StudentList() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Aladdin</h5>
+              <h5 className="weight-400 m-0">Mohammed</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0">1</h5>
@@ -163,7 +203,7 @@ function StudentList() {
                 height={50}
                 width={50}
               />
-              <h5 className="weight-400 m-0">Abu Hurayrah</h5>
+              <h5 className="weight-400 m-0">Mansour</h5>
             </td>
             <td>
               <h5 className="weight-400 m-0">3</h5>

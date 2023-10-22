@@ -17,7 +17,7 @@ function ChildProfiles() {
           <h5 className="weight-400">Name</h5>
         </div>
         <div className="col-6">
-          <h5 className="weight-200">Student Name</h5>
+          <h5 className="weight-200">Jamal</h5>
         </div>
       </div>
 
